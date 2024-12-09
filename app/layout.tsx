@@ -5,8 +5,18 @@ import "./globals.css";
 const robotoSerif = Roboto_Serif({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Portfolio about me",
-  description: "This is a portfolio about me, Lorenz Boss.",
+  title: "Lorenz Portfolio",
+  description:
+    "In this portfolio you can find information about me, Lorenz Boss, and my projects.",
+  keywords: [
+    "Lorenz Boss",
+    "Basel",
+    "portfolio",
+    "about me",
+    "Switzerland",
+    "web developer",
+    "software engineer",
+  ],
 };
 
 export default function RootLayout({
