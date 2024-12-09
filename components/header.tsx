@@ -35,7 +35,7 @@ export function Header() {
   return (
     <header className="fixed left-0 right-0 top-0 z-50">
       <div
-        className={`flex items-center shadow-lg backdrop-blur-lg transition-[height] duration-300 ease-in-out ${
+        className={`flex items-center bg-white/50 shadow backdrop-blur-lg transition-[height] duration-300 ease-in-out dark:bg-black/60 ${
           isScrolled ? "h-12 lg:h-16" : "h-16 lg:h-20"
         }`}
       >
