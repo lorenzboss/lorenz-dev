@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Roboto_Serif } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const robotoSerif = Roboto_Serif({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Sticky Header with Dark Mode",
@@ -16,7 +16,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={`${inter.className} overflow-x-hidden`}>{children}</body>
+      <body className={`${robotoSerif.className} overflow-x-hidden`}>
+        {children}
+      </body>
     </html>
   );
 }
