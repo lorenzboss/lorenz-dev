@@ -5,8 +5,8 @@ import "./globals.css";
 const robotoSerif = Roboto_Serif({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Sticky Header with Dark Mode",
-  description: "A demo of a sticky header with dark mode support",
+  title: "Portfolio about me",
+  description: "This is a portfolio about me, Lorenz Boss.",
 };
 
 export default function RootLayout({
